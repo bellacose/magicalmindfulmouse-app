@@ -1,0 +1,11 @@
+{
+  "specialDietsEmail": "specialdiets@disneyworld.com",
+  "diningPhone": "407-WDW-DINE",
+  "diningPhoneNumeric": "407-939-3463",
+  "allergyMenusUrl": "https://disneyworld.com/dining",
+  "notes": [
+    "Email 1-2 weeks before your trip with dates, parks, and exact restrictions.",
+    "For multiple allergies, list severity for each (celiac vs preference vs anaphylaxis).",
+    "Cross-contamination is the real risk — ask about dedicated prep areas and shared fryers."
+  ]
+}

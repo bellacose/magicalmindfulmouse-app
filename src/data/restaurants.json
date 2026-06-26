@@ -1,0 +1,914 @@
+[
+  {
+    "name": "1: Pecos Bill Tall Tale Inn and Cafe",
+    "park": "magic-kingdom",
+    "location": "Frontierland",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.5,
+      "overall": 4.5
+    },
+    "cost": null,
+    "reservationRequired": false,
+    "crossContaminationRisk": "Low (dedicated prep area, staff trained)",
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Citrus-Chipotle Chicken Rice Bowl",
+        "price": "$14.99",
+        "notes": [
+          "Citrus-chipotle chicken, cilantro-lime rice, pinto beans, pico de gallo, queso fresco",
+          "Quality: Excellent | Cross-contamination risk: Low",
+          "Why it works: Naturally gluten-free, flavorful, substantial"
+        ]
+      },
+      {
+        "name": "Green Chili Beef Rice Bowl",
+        "price": "$14.99",
+        "notes": [
+          "Green chili beef, rice, beans, cowboy caviar, lime crema",
+          "Quality: Excellent | Price note: +$0.50 for additional toppings",
+          "Why it works: Unique flavor, better than typical quick-service"
+        ]
+      },
+      {
+        "name": "Steamed Tamale",
+        "price": "$11.99",
+        "notes": [
+          "Green chili-cheese tamale, pinto beans, pico de gallo, queso fresco",
+          "Quality: Very Good | Portion: Generous",
+          "Why it works: Hard to find authentic tamales at Disney"
+        ]
+      },
+      {
+        "name": "Cherry BBQ Cola Pork Rice Bowl",
+        "price": "$14.99",
+        "notes": [
+          "Barbecue pork, rice, beans, cowboy caviar",
+          "Quality: Very Good | Sweet/savory balance is great",
+          "Why it works: Unique sauce, satisfying"
+        ]
+      },
+      {
+        "name": "Plant-Based Rice Bowl",
+        "price": "$13.99",
+        "notes": [
+          "Impossible meatballs in red chile tomato sauce, pinto beans, cilantro-lime rice",
+          "Quality: Very Good | Great for vegetarians",
+          "Why it works: Doesn't feel like a \"healthy\" option",
+          "Charro Beans (pinto beans + pico + queso) - Fully GF",
+          "Cilantro Lime Rice - Fully GF",
+          "Barbecue-Cheddar Seasoned Fries - Fully GF",
+          "Sweet Corn Mousse - Fully GF, excellent dessert",
+          "Taco Trio as lettuce wraps (instead of soft shells)",
+          "Nacho Bowl with toppings (ask them to prepare in kitchen)",
+          "Any bowl customized with different proteins",
+          "Go early (11am-12pm) before lunch rush",
+          "If cross-contamination is a concern, ask them to prepare your toppings in kitchen",
+          "Mobile order works great here - items clearly marked",
+          "Portions are large; one bowl per person is plenty",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "Go early (11am-12pm) before lunch rush",
+      "If cross-contamination is a concern, ask them to prepare your toppings in kitchen",
+      "Mobile order works great here - items clearly marked",
+      "Portions are large; one bowl per person is plenty"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Columbia Harbour House",
+    "park": "magic-kingdom",
+    "location": "Liberty Square",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.6,
+      "overall": 4.6
+    },
+    "cost": null,
+    "reservationRequired": false,
+    "crossContaminationRisk": "Very Low (dedicated allergy preparation)",
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Allergy-Friendly Chicken Strips",
+        "price": "$13.99",
+        "notes": [
+          "Crispy chicken strips, French fries, coleslaw",
+          "Quality: Crispy outside, juicy inside | Portion: Generous",
+          "Why it works: Actually tastes good, not a \"diet\" version"
+        ]
+      },
+      {
+        "name": "Maple Mustard Glazed Salmon",
+        "price": "$16.99",
+        "notes": [
+          "Grilled salmon, rice, green beans",
+          "Quality: Excellent | Protein-forward meal",
+          "Why it works: Rare to get grilled fish at quick-service"
+        ]
+      },
+      {
+        "name": "Shrimp Skewer Platter",
+        "price": "$15.99",
+        "notes": [
+          "Grilled shrimp skewers, rice, green beans",
+          "Quality: Very Good | Lighter option",
+          "Why it works: Portion-controlled, flavorful seasoning"
+        ]
+      },
+      {
+        "name": "Shrimp Salad",
+        "price": "$14.99",
+        "notes": [
+          "Mixed greens, cherry tomatoes, pepperoncini, olives, capers, grilled shrimp",
+          "Quality: Very Good | Lighter lunch option",
+          "Why it works: Fresh, restaurant-quality salad",
+          "Allergy-Friendly Brownie - Fully GF, excellent",
+          "Allergy-Friendly Cookie - Fully GF, satisfying",
+          "Kids' Allergy-Friendly Chicken Strips",
+          "Kids' Grilled Salmon",
+          "Kids' Shrimp Skewer",
+          "Premium pricing for quick-service (but quality justifies it)",
+          "Mobile order works perfectly - \"Allergy-Friendly\" filter catches items",
+          "Staff very knowledgeable",
+          "Best option if you're tired of \"basic\" quick-service fare",
+          "Go during off-peak hours (2-4pm) for shortest waits",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "Premium pricing for quick-service (but quality justifies it)",
+      "Mobile order works perfectly - \"Allergy-Friendly\" filter catches items",
+      "Staff very knowledgeable",
+      "Best option if you're tired of \"basic\" quick-service fare",
+      "Go during off-peak hours (2-4pm) for shortest waits"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Cosmic Ray's Starlight Cafe",
+    "park": "magic-kingdom",
+    "location": "Tomorrowland",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 3.8,
+      "overall": 3.8
+    },
+    "cost": null,
+    "reservationRequired": false,
+    "crossContaminationRisk": "Low (dedicated fryer)",
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Burgers (All Burgers)",
+        "price": "$13.99-$15.99",
+        "notes": [
+          "1/3 lb Angus Bacon Cheeseburger or variations",
+          "Gluten-free bun available",
+          "Quality: Decent | Don't expect amazing",
+          "Why it works: Familiar option if your kids want burgers"
+        ]
+      },
+      {
+        "name": "Impossible Patty Melt",
+        "price": "$14.99",
+        "notes": [
+          "Plant-based patty, Swiss cheese, pickle slaw, asteroid sauce",
+          "Gluten-free bun available",
+          "Quality: Surprisingly good",
+          "Why it works: Plant-based option that actually tastes good"
+        ]
+      },
+      {
+        "name": "Grilled Chicken Sandwich",
+        "price": "$12.99",
+        "notes": [
+          "Gluten-free bun available",
+          "Quality: Serviceable",
+          "Why it works: No-fuss option"
+        ]
+      },
+      {
+        "name": "Rice Noodle Macaroni and Cheese",
+        "price": "$10.99",
+        "notes": [
+          "Mac and cheese made with rice noodles",
+          "Fully gluten-free",
+          "Quality: Good | Kids love it",
+          "Why it works: Good side dish or light meal",
+          "French Fries (fully GF) - $4.99",
+          "Cookies (gluten-free) - $6.99",
+          "Dedicated allergy fryer (important!)",
+          "Staff knowledgeable about allergies",
+          "Best for families where kids only want burgers/chicken",
+          "Mobile order available",
+          "Go early in morning before burger rush",
+          "Don't bother with standard burgers - quality is mediocre",
+          "Save this for your \"backup\" option",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "Dedicated allergy fryer (important!)",
+      "Staff knowledgeable about allergies",
+      "Best for families where kids only want burgers/chicken",
+      "Mobile order available",
+      "Go early in morning before burger rush"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Pinocchio Village Haus",
+    "park": "magic-kingdom",
+    "location": "Fantasyland",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.3,
+      "overall": 4.3
+    },
+    "cost": null,
+    "reservationRequired": false,
+    "crossContaminationRisk": "Low (separate prep area for gluten-free crust)",
+    "bestDish": null,
+    "dishes": [],
+    "tips": [
+      "Mobile order available",
+      "Specify gluten-free crust when ordering",
+      "Pizza takes ~10-15 min longer than quick-service",
+      "Waterfront location is beautiful",
+      "Get here early (11am) or after main rush (2-3pm)"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Casey's Corner",
+    "park": "magic-kingdom",
+    "location": "Main Street USA",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 3.5,
+      "overall": 3.5
+    },
+    "cost": null,
+    "reservationRequired": false,
+    "crossContaminationRisk": null,
+    "bestDish": null,
+    "dishes": [],
+    "tips": [
+      "No mobile order - must order at counter",
+      "Ask to speak with manager/chef for gluten-free bun",
+      "Baseball memorabilia throughout (fun if you're a fan)"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "1: Liberty Tree Tavern",
+    "park": "magic-kingdom",
+    "location": "Liberty Square",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.9,
+      "overall": 4.9
+    },
+    "cost": "~$60 per person (dinner) / ~$40 per person (lunch)",
+    "reservationRequired": true,
+    "crossContaminationRisk": "Very Low (informed kitchen staff, food prepared carefully)",
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Make reservation early",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Ask your server about additional items",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Go hungry",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Ask about current dessert options",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Request gluten-free mac and cheese",
+        "price": null,
+        "notes": [
+          "Once a year, you get to eat stuffing. This is where.",
+          "Comfort food done right",
+          "All-you-can-eat value",
+          "Staff genuinely caring",
+          "Lunch: Same menu, slightly less crowded, slightly less expensive",
+          "Dinner: More crowded, more festive, full menu",
+          "Choose lunch if you want quieter experience",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "**Make reservation early** - this is THE gluten-free place",
+      "**Ask your server about additional items** - chefs often make special items upon request",
+      "**Go hungry** - all-you-can-eat format, so take advantage",
+      "**Ask about current dessert options** - these vary",
+      "**Request gluten-free mac and cheese** - often available but not always listed"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Skipper Canteen",
+    "park": "magic-kingdom",
+    "location": "Adventureland",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.7,
+      "overall": 4.7
+    },
+    "cost": "~$65 per person (dinner) / ~$45 per person (lunch)",
+    "reservationRequired": true,
+    "crossContaminationRisk": "Low (chefs experienced with allergies)",
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Fried Chicken",
+        "price": "Entree",
+        "notes": [
+          "Crispy breading, incredibly juicy meat",
+          "Quality: Excellent | This is the standout item",
+          "Why it's special: Disney's best fried chicken (fight me)",
+          "Naturally gluten-free or confirmed safe"
+        ]
+      },
+      {
+        "name": "Quicksand",
+        "price": "Appetizer",
+        "notes": [
+          "Gluten-free appetizer option",
+          "Quality: Creative presentation",
+          "Why it works: Sets the adventurous tone",
+          "3+ naturally gluten-free appetizers",
+          "6+ naturally gluten-free entrees",
+          "Limited gluten-free dessert (this is the weak spot)"
+        ]
+      },
+      {
+        "name": "Let your server know you're gluten-free",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Ask chef about menu modifications",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Don't feel limited by listed items",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Go for the fried chicken",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Plan a dessert elsewhere",
+        "price": null,
+        "notes": [
+          "Presentation: Restaurant-quality",
+          "Flavor: Adventurous and successful",
+          "Portions: Generous",
+          "Service: Knowledgeable staff",
+          "Lunch: Quieter, slightly less expensive",
+          "Dinner: More festive, full menu available",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "**Let your server know you're gluten-free** - they'll highlight options",
+      "**Ask chef about menu modifications** - they're willing and capable",
+      "**Don't feel limited by listed items** - ask about off-menu preparations",
+      "**Go for the fried chicken** - it's the signature item",
+      "**Plan a dessert elsewhere** if you want something special (limited GF options)"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Be Our Guest Restaurant",
+    "park": "magic-kingdom",
+    "location": "Inside Enchanted Castle",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.7,
+      "overall": 4.7
+    },
+    "cost": "~$72 per person (dinner) / ~$43 per person (lunch)",
+    "reservationRequired": true,
+    "crossContaminationRisk": "Low-Medium (depends on chef attention)",
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Check allergy menu before booking",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Let server know immediately",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Ask about menu modifications",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Go for lunch if Budget conscious",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Book at Beast-sighting time",
+        "price": "usually early dinner",
+        "notes": [
+          "Experience: Iconic, magical, special",
+          "Food: Good (but not always gluten-free friendly without asking)",
+          "Service: Excellent",
+          "Value: High because of experience",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "**Check allergy menu before booking** - available on Disney website",
+      "**Let server know immediately** - they'll guide you",
+      "**Ask about menu modifications** - French chefs understand allergies",
+      "**Go for lunch if Budget conscious** - same amazing experience, lower price",
+      "**Book at Beast-sighting time** (usually early dinner) if that matters to you"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Cinderella's Royal Table",
+    "park": "magic-kingdom",
+    "location": "Inside Cinderella Castle",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.2,
+      "overall": 4.8
+    },
+    "cost": "~$95 per person (character breakfast)",
+    "reservationRequired": true,
+    "crossContaminationRisk": "Medium (breakfast buffet format, limited dedicated prep)",
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Request \"breakfast items available at other meals\"",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Call ahead",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Consider lunch/dinner instead",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Speak with chef",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Book well in advance",
+        "price": null,
+        "notes": [
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "**Request \"breakfast items available at other meals\"** if you're set on breakfast",
+      "**Call ahead** - 407-WDW-DINE to discuss options",
+      "**Consider lunch/dinner instead** - way better gluten-free options",
+      "**Speak with chef** about customizations",
+      "**Book well in advance** - this fills up months ahead"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "The Diamond Horseshoe",
+    "park": "magic-kingdom",
+    "location": "Frontierland",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.2,
+      "overall": 4.2
+    },
+    "cost": "~$60 per person (family-style)",
+    "reservationRequired": true,
+    "crossContaminationRisk": null,
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Book this if Liberty Tree fully reserved",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Same all-you-can-eat strategy applies",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Ask about additional items",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Go during off-peak times",
+        "price": null,
+        "notes": [
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "**Book this if Liberty Tree fully reserved**",
+      "**Same all-you-can-eat strategy applies**",
+      "**Ask about additional items** - chefs very accommodating",
+      "**Go during off-peak times** for best experience"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "The Plaza Restaurant",
+    "park": "magic-kingdom",
+    "location": "Main Street USA",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.3,
+      "overall": 4.3
+    },
+    "cost": "~$40 per person (most affordable table-service)",
+    "reservationRequired": true,
+    "crossContaminationRisk": null,
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Ask about chef Ken",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Don't skip the Plaza Loaded Fries",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Book during lunch for lower prices",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Similar pricing to quick-service but with table service",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Menu quality varies",
+        "price": null,
+        "notes": [
+          "Experience: Casual, Main Street location",
+          "Food: Variable (depends on chef)",
+          "Gluten-Free: Good, but variable",
+          "Value: Excellent (price point)",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "**Ask about chef Ken** - known as very allergy-friendly",
+      "**Don't skip the Plaza Loaded Fries** - they're legit great",
+      "**Book during lunch for lower prices**",
+      "**Similar pricing to quick-service but with table service**",
+      "**Menu quality varies** - depends on chef rotation"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Tony's Town Square Restaurant",
+    "park": "magic-kingdom",
+    "location": "Main Street USA",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 3.8,
+      "overall": 3.8
+    },
+    "cost": "~$50 per person",
+    "reservationRequired": true,
+    "crossContaminationRisk": null,
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Ask about gluten-free pasta availability",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Many items can be adapted",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Focus on protein + vegetable dishes",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Service varies",
+        "price": null,
+        "notes": [
+          "Experience: Charming Italian theming",
+          "Food: Decent (not amazing Italian, but good Disney version)",
+          "Gluten-Free: Better than menu suggests if you ask",
+          "Value: Moderate",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "**Ask about gluten-free pasta availability** - it's there, might not be listed",
+      "**Many items can be adapted** - don't accept \"no\" without asking chef",
+      "**Focus on protein + vegetable dishes** - naturally often GF",
+      "**Service varies** - some servers more willing to accommodate"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "The Crystal Palace",
+    "park": "magic-kingdom",
+    "location": "Adventureland",
+    "type": "quick-service",
+    "ratings": {
+      "glutenFree": 4.4,
+      "overall": 4.4
+    },
+    "cost": "~$70 per person (character dining buffet)",
+    "reservationRequired": true,
+    "crossContaminationRisk": null,
+    "bestDish": null,
+    "dishes": [
+      {
+        "name": "Request allergen menu",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "If concerned about cross-contamination",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Ask about Mickey Waffles",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "Go during breakfast for most GF options",
+        "price": "muffins + donuts + waffles",
+        "notes": []
+      },
+      {
+        "name": "Exact offerings vary daily",
+        "price": null,
+        "notes": [
+          "Experience: Buffet + character dining fun",
+          "Food: Basic (buffet quality)",
+          "Gluten-Free: Decent if you ask and verify",
+          "Cross-contamination risk: Medium (buffet format, but staff willing to help)",
+          "Ask to speak with chef",
+          "Request kitchen-prepared items if concerned",
+          "Focus on vegetables + proteins",
+          "Gluten-free sides are your friends",
+          "--"
+        ]
+      }
+    ],
+    "tips": [
+      "**Request allergen menu** - given upon request",
+      "**If concerned about cross-contamination** - ask chef to prepare items in kitchen",
+      "**Ask about Mickey Waffles** - available gluten-free upon request at breakfast",
+      "**Go during breakfast for most GF options** (muffins + donuts + waffles)",
+      "**Exact offerings vary daily** - check with chef"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "La Cantina de San Ángel",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "San Ángel Bar & Grill",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Lotus Blossom Cafe",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Nine Dragons Restaurant",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Kringla Bakery & Og",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Gelato & Other Options",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Ristorante Akershus",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Various Options",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Restaurant Options",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Kabuki Cafe & Katsura Grill",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Tangierine Cafe",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Restaurant Marrakesh",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Monsieur Paul",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Rose & Crown Pub & Dining Room",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Rose & Crown",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Le Cellier Steakhouse",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Kaki Kaitern & Others",
+    "park": "epcot",
+    "type": "quick-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Restaurant Akershus",
+    "park": "epcot",
+    "type": "table-service",
+    "ratings": {},
+    "dishes": [],
+    "tips": [],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  }
+]

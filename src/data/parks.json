@@ -1,0 +1,35 @@
+[
+  {
+    "id": "magic-kingdom",
+    "name": "Magic Kingdom",
+    "emoji": "🏰",
+    "description": "Classic Disney. Castle, characters, comfort food. Strong quick-service GF options; Liberty Tree Tavern is the standout.",
+    "allergenRatings": {
+      "gluten-free": 4.7,
+      "vegan": 3.8,
+      "dairy-free": 4.2,
+      "nut-allergy": 4.6
+    },
+    "bestFor": [
+      "gluten-free",
+      "nut-allergy"
+    ]
+  },
+  {
+    "id": "epcot",
+    "name": "EPCOT",
+    "emoji": "🌍",
+    "description": "World Showcase = naturally international cuisines. Most GF-friendly park overall. Watch soy sauce in Asian pavilions.",
+    "allergenRatings": {
+      "gluten-free": 4.9,
+      "vegan": 4.6,
+      "dairy-free": 4.8,
+      "nut-allergy": 3.6
+    },
+    "bestFor": [
+      "gluten-free",
+      "vegan",
+      "dairy-free"
+    ]
+  }
+]

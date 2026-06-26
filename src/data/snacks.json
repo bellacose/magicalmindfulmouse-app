@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Dole Whip",
+    "location": "Aloha Isle, Adventureland",
+    "park": "magic-kingdom",
+    "stars": 5,
+    "price": "$7.99",
+    "rating": 4.9,
+    "description": "Iconic, refreshing, dairy-free, vegan, naturally gluten-free",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Citrus Swirl",
+    "location": "Sunshine Tree Terrace, Adventureland",
+    "park": "magic-kingdom",
+    "stars": 5,
+    "price": "$7.50",
+    "rating": 4.8,
+    "description": "Orange soft serve + vanilla, refreshing, less crowded than Dole Whip",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "I Lava You Float",
+    "location": "Aloha Isle, Adventureland",
+    "park": "magic-kingdom",
+    "stars": 4,
+    "price": "$8.99",
+    "rating": 4.7,
+    "description": "Orange Dole Whip + strawberry soda + popping candy, fun experience",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Soft Serve Ice Cream",
+    "location": "Various Locations",
+    "park": "magic-kingdom",
+    "stars": 4,
+    "price": "$7.99-$10.99",
+    "rating": 4,
+    "description": "Naturally gluten-free",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Plaza Ice Cream Parlor",
+    "location": "Main Street USA",
+    "park": "magic-kingdom",
+    "stars": 4,
+    "price": "$7.99-$10.99",
+    "rating": 4,
+    "description": "Multiple flavors, sundae options",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Mickey Premium Bar",
+    "location": null,
+    "park": "magic-kingdom",
+    "stars": 4,
+    "price": "$8.99",
+    "rating": 4,
+    "description": "Iconic shape, naturally gluten-free, individually packaged",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "LeFou's Brew",
+    "location": "Gaston's Tavern, Fantasyland",
+    "park": "magic-kingdom",
+    "stars": 4,
+    "price": "$8.99",
+    "rating": 4,
+    "description": "Unique flavor combo (frozen apple juice + marshmallow + passion fruit foam)",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Popcorn",
+    "location": null,
+    "park": "magic-kingdom",
+    "stars": 4,
+    "price": "$7.99",
+    "rating": 4,
+    "description": "Plain popcorn is naturally gluten-free",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Enjoy Life Cookies & Brownies",
+    "location": null,
+    "park": "magic-kingdom",
+    "stars": 4,
+    "price": "$8.99",
+    "rating": 4,
+    "description": "Certified gluten-free brand",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  },
+  {
+    "name": "Prepackaged Snacks",
+    "location": null,
+    "park": "magic-kingdom",
+    "stars": 4,
+    "price": null,
+    "rating": 4,
+    "description": "Certified gluten-free options",
+    "allergens": [
+      "gluten-free"
+    ],
+    "source": "guide",
+    "lastVerified": "2026-02-28"
+  }
+]
