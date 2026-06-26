@@ -71,11 +71,12 @@ function splitSections(body) {
 /**
  * Extract GF Rating and Overall Rating from a section's header block.
  * Patterns like: **Gluten-Free Rating: 4.5/5** | **Overall Rating: 4.5/5**
+ * Returns keys normalized to hyphens (matches UI filter ids).
  */
 function extractRatings(block) {
   const ratings = {};
   const m1 = block.match(/\*?\*?Gluten-Free Rating:\*?\*?\s*([\d.]+)\s*\/\s*5/i);
-  if (m1) ratings.glutenFree = parseFloat(m1[1]);
+  if (m1) ratings['gluten-free'] = parseFloat(m1[1]);
   const m2 = block.match(/\*?\*?Overall Rating:\*?\*?\s*([\d.]+)\s*\/\s*5/i);
   if (m2) ratings.overall = parseFloat(m2[1]);
   return ratings;
@@ -250,7 +251,13 @@ function extractMagicKingdom() {
     const bestDish = bestMatch ? bestMatch[1].trim() : null;
 
     restaurants.push({
-      name: cleanTitle.split('(')[0].trim().replace(/^#\d+\s*/, ''),
+      name: cleanTitle
+        .split('(')[0]
+        .trim()
+        // Strip "1:" or "#1" or "1. " prefixes
+        .replace(/^(?:[#]\s*)?(\d+)[:.\s]\s*/, '$1 ')
+        .replace(/^1\s/, '')
+        .replace(/^\d+\s+/, ''),
       park: 'magic-kingdom',
       location,
       type: type === 'unknown' ? 'quick-service' : type,
@@ -284,7 +291,7 @@ function extractMagicKingdom() {
       // Update or insert
       const existing = restaurants.find(r => r.name.toLowerCase() === name.toLowerCase());
       if (existing) {
-        existing.ratings = { glutenFree: rating, overall: rating };
+        existing.ratings = { 'gluten-free': rating, overall: rating };
         existing.bestDish = bestDish;
         existing.cost = price;
         existing.reservationRequired = mustBook;
@@ -294,7 +301,7 @@ function extractMagicKingdom() {
           name,
           park: 'magic-kingdom',
           type,
-          ratings: { glutenFree: rating, overall: rating },
+          ratings: { 'gluten-free': rating, overall: rating },
           cost: price,
           reservationRequired: mustBook,
           bestDish,
@@ -317,19 +324,75 @@ function extractEpcot() {
 
   // EPCOT guide is organized by country pavilion, then by restaurant within.
   // Each restaurant appears as "**Quick-Service: Name**" or "**Table-Service: Name**"
-  const re = /\*\*(Quick-Service|Table-Service):\s*([^*]+?)\*\*/g;
+  // Dish info is embedded in "Best GF Option: ..." lines per restaurant.
+  //
+  // The guide uses generic placeholders ("Various Options", "Restaurant Options")
+  // for pavilions with multiple unnamed restaurants. We track the current pavilion
+  // heading and rewrite those placeholder names to the pavilion name.
+  const PAVILION_RE = /^### (.+? Pavilion)\b/gm;
+  const pavilions = [];
+  let pm;
+  while ((pm = PAVILION_RE.exec(body)) !== null) {
+    pavilions.push({ name: pm[1].trim(), index: pm.index });
+  }
+
+  function pavilionFor(pos) {
+    let current = null;
+    for (const p of pavilions) {
+      if (p.index <= pos) current = p.name;
+      else break;
+    }
+    return current;
+  }
+
+  const GENERIC_NAMES = /^(various|restaurant|quick-service|table-service|options|others?)\s*(options|others?)?$/i;
+
+  const re = /\*\*(Quick-Service|Table-Service):\s*([^*]+?)\*\*\n([\s\S]*?)(?=\n\s*\*\*Quick-Service|\n\s*\*\*Table-Service|\n### |\n## |\n---\n|\n$)/g;
   let m;
   while ((m = re.exec(body)) !== null) {
     const type = m[1].toLowerCase().includes('quick') ? 'quick-service' : 'table-service';
-    const name = m[2].trim();
-    // Skip section headings that are actually just labels
-    if (name.length > 60) continue;
+    const rawName = m[2].trim();
+    const sectionBlock = m[3];
+    if (rawName.length > 60) continue;
+
+    // Resolve name — replace generic placeholders with the pavilion name
+    const pavilion = pavilionFor(m.index);
+    const isGeneric = GENERIC_NAMES.test(rawName);
+    const name = isGeneric && pavilion
+      ? `${pavilion} (${type === 'quick-service' ? 'QS' : 'TS'})`
+      : rawName;
+
+    // Pull dishes from patterns like:
+    //   - **Best GF Option:** Rice bowls (ask about fillings)
+    //   - **Best GF Options:** Steamed rice bowls, vegetables
+    //   - **Best GF Option:** Bratwurst (no bun, ask to verify)
+    const dishes = [];
+    const dishRe = /\*\*Best GF Options?:\*\*\s*([^\n]+)/gi;
+    let dm;
+    while ((dm = dishRe.exec(sectionBlock)) !== null) {
+      const text = dm[1].trim();
+      // Split on commas if multiple options listed
+      const parts = text.split(/\s*,\s*/);
+      for (const part of parts) {
+        // Strip trailing parenthetical caveat for the dish name
+        const clean = part.replace(/\s*\([^)]*\)\s*$/, '').trim();
+        if (clean.length > 2 && clean.length < 80) {
+          dishes.push({
+            name: clean,
+            price: null,
+            notes: part.includes('(') ? [part.match(/\(([^)]+)\)/)?.[1] || ''] : [],
+          });
+        }
+      }
+    }
+
     restaurants.push({
       name,
       park: 'epcot',
       type,
-      ratings: {},
-      dishes: [],
+      ratings: { 'gluten-free': 4.5 }, // baseline for EPCOT (highest-rated GF park)
+      dishes,
+      location: pavilion,
       tips: [],
       source: 'guide',
       lastVerified: LAST_VERIFIED,

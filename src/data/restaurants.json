@@ -1,11 +1,11 @@
 [
   {
-    "name": "1: Pecos Bill Tall Tale Inn and Cafe",
+    "name": "Pecos Bill Tall Tale Inn and Cafe",
     "park": "magic-kingdom",
     "location": "Frontierland",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.5,
+      "gluten-free": 4.5,
       "overall": 4.5
     },
     "cost": null,
@@ -86,7 +86,7 @@
     "location": "Liberty Square",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.6,
+      "gluten-free": 4.6,
       "overall": 4.6
     },
     "cost": null,
@@ -158,7 +158,7 @@
     "location": "Tomorrowland",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 3.8,
+      "gluten-free": 3.8,
       "overall": 3.8
     },
     "cost": null,
@@ -232,7 +232,7 @@
     "location": "Fantasyland",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.3,
+      "gluten-free": 4.3,
       "overall": 4.3
     },
     "cost": null,
@@ -256,7 +256,7 @@
     "location": "Main Street USA",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 3.5,
+      "gluten-free": 3.5,
       "overall": 3.5
     },
     "cost": null,
@@ -273,12 +273,12 @@
     "lastVerified": "2026-02-28"
   },
   {
-    "name": "1: Liberty Tree Tavern",
+    "name": "Liberty Tree Tavern",
     "park": "magic-kingdom",
     "location": "Liberty Square",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.9,
+      "gluten-free": 4.9,
       "overall": 4.9
     },
     "cost": "~$60 per person (dinner) / ~$40 per person (lunch)",
@@ -337,7 +337,7 @@
     "location": "Adventureland",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.7,
+      "gluten-free": 4.7,
       "overall": 4.7
     },
     "cost": "~$65 per person (dinner) / ~$45 per person (lunch)",
@@ -417,7 +417,7 @@
     "location": "Inside Enchanted Castle",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.7,
+      "gluten-free": 4.7,
       "overall": 4.7
     },
     "cost": "~$72 per person (dinner) / ~$43 per person (lunch)",
@@ -473,7 +473,7 @@
     "location": "Inside Cinderella Castle",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.2,
+      "gluten-free": 4.2,
       "overall": 4.8
     },
     "cost": "~$95 per person (character breakfast)",
@@ -525,7 +525,7 @@
     "location": "Frontierland",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.2,
+      "gluten-free": 4.2,
       "overall": 4.2
     },
     "cost": "~$60 per person (family-style)",
@@ -571,7 +571,7 @@
     "location": "Main Street USA",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.3,
+      "gluten-free": 4.3,
       "overall": 4.3
     },
     "cost": "~$40 per person (most affordable table-service)",
@@ -627,7 +627,7 @@
     "location": "Main Street USA",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 3.8,
+      "gluten-free": 3.8,
       "overall": 3.8
     },
     "cost": "~$50 per person",
@@ -677,7 +677,7 @@
     "location": "Adventureland",
     "type": "quick-service",
     "ratings": {
-      "glutenFree": 4.4,
+      "gluten-free": 4.4,
       "overall": 4.4
     },
     "cost": "~$70 per person (character dining buffet)",
@@ -735,18 +735,19 @@
     "name": "La Cantina de San Ángel",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
-    "dishes": [],
-    "tips": [],
-    "source": "guide",
-    "lastVerified": "2026-02-28"
-  },
-  {
-    "name": "San Ángel Bar & Grill",
-    "park": "epcot",
-    "type": "table-service",
-    "ratings": {},
-    "dishes": [],
+    "ratings": {
+      "gluten-free": 4.5
+    },
+    "dishes": [
+      {
+        "name": "Rice bowls",
+        "price": null,
+        "notes": [
+          "ask about fillings"
+        ]
+      }
+    ],
+    "location": "Mexico Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
@@ -755,18 +756,22 @@
     "name": "Lotus Blossom Cafe",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
-    "dishes": [],
-    "tips": [],
-    "source": "guide",
-    "lastVerified": "2026-02-28"
-  },
-  {
-    "name": "Nine Dragons Restaurant",
-    "park": "epcot",
-    "type": "table-service",
-    "ratings": {},
-    "dishes": [],
+    "ratings": {
+      "gluten-free": 4.5
+    },
+    "dishes": [
+      {
+        "name": "Steamed rice bowls",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "vegetables",
+        "price": null,
+        "notes": []
+      }
+    ],
+    "location": "China Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
@@ -775,8 +780,11 @@
     "name": "Kringla Bakery & Og",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
+    "ratings": {
+      "gluten-free": 4.5
+    },
     "dishes": [],
+    "location": "Germany Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
@@ -785,38 +793,54 @@
     "name": "Gelato & Other Options",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
-    "dishes": [],
+    "ratings": {
+      "gluten-free": 4.5
+    },
+    "dishes": [
+      {
+        "name": "Gelato",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "pizza might have GF crust",
+        "price": null,
+        "notes": []
+      }
+    ],
+    "location": "Italy Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
   },
   {
-    "name": "Ristorante Akershus",
-    "park": "epcot",
-    "type": "table-service",
-    "ratings": {},
-    "dishes": [],
-    "tips": [],
-    "source": "guide",
-    "lastVerified": "2026-02-28"
-  },
-  {
-    "name": "Various Options",
+    "name": "America Pavilion (QS)",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
-    "dishes": [],
+    "ratings": {
+      "gluten-free": 4.5
+    },
+    "dishes": [
+      {
+        "name": "Protein with vegetable sides",
+        "price": null,
+        "notes": []
+      }
+    ],
+    "location": "America Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
   },
   {
-    "name": "Restaurant Options",
+    "name": "America Pavilion (TS)",
     "park": "epcot",
     "type": "table-service",
-    "ratings": {},
+    "ratings": {
+      "gluten-free": 4.5
+    },
     "dishes": [],
+    "location": "America Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
@@ -825,8 +849,27 @@
     "name": "Kabuki Cafe & Katsura Grill",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
-    "dishes": [],
+    "ratings": {
+      "gluten-free": 4.5
+    },
+    "dishes": [
+      {
+        "name": "Edamame",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "grilled proteins",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "rice",
+        "price": null,
+        "notes": []
+      }
+    ],
+    "location": "Japan Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
@@ -835,28 +878,27 @@
     "name": "Tangierine Cafe",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
-    "dishes": [],
-    "tips": [],
-    "source": "guide",
-    "lastVerified": "2026-02-28"
-  },
-  {
-    "name": "Restaurant Marrakesh",
-    "park": "epcot",
-    "type": "table-service",
-    "ratings": {},
-    "dishes": [],
-    "tips": [],
-    "source": "guide",
-    "lastVerified": "2026-02-28"
-  },
-  {
-    "name": "Monsieur Paul",
-    "park": "epcot",
-    "type": "table-service",
-    "ratings": {},
-    "dishes": [],
+    "ratings": {
+      "gluten-free": 4.5
+    },
+    "dishes": [
+      {
+        "name": "Grilled meats",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "rice",
+        "price": null,
+        "notes": []
+      },
+      {
+        "name": "vegetables",
+        "price": null,
+        "notes": []
+      }
+    ],
+    "location": "Morocco Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
@@ -865,28 +907,32 @@
     "name": "Rose & Crown Pub & Dining Room",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
-    "dishes": [],
+    "ratings": {
+      "gluten-free": 4.5
+    },
+    "dishes": [
+      {
+        "name": "Fish and chips might have GF batter",
+        "price": null,
+        "notes": [
+          "ask!"
+        ]
+      }
+    ],
+    "location": "UK Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
   },
   {
-    "name": "Rose & Crown",
+    "name": "Canada Pavilion (QS)",
     "park": "epcot",
-    "type": "table-service",
-    "ratings": {},
+    "type": "quick-service",
+    "ratings": {
+      "gluten-free": 4.5
+    },
     "dishes": [],
-    "tips": [],
-    "source": "guide",
-    "lastVerified": "2026-02-28"
-  },
-  {
-    "name": "Le Cellier Steakhouse",
-    "park": "epcot",
-    "type": "table-service",
-    "ratings": {},
-    "dishes": [],
+    "location": "Canada Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
@@ -895,18 +941,11 @@
     "name": "Kaki Kaitern & Others",
     "park": "epcot",
     "type": "quick-service",
-    "ratings": {},
+    "ratings": {
+      "gluten-free": 4.5
+    },
     "dishes": [],
-    "tips": [],
-    "source": "guide",
-    "lastVerified": "2026-02-28"
-  },
-  {
-    "name": "Restaurant Akershus",
-    "park": "epcot",
-    "type": "table-service",
-    "ratings": {},
-    "dishes": [],
+    "location": "Norway Pavilion",
     "tips": [],
     "source": "guide",
     "lastVerified": "2026-02-28"
